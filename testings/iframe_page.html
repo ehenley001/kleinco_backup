@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Second Page with Iframe</title>
+</head>
+<body>
+	
+	<ul>
+		<li class="link videos"><a href="/sun.html" target="iframe">Taylor Dies</a></li>
+		<li class="link music"><a href="/exhomes.html" target="iframe">Sounds of the South Broadway (2019)</a></li>
+		<li class="link videos music"><a href="/eipar.html" target="iframe">It's time to move!</a></li>
+	</ul>
+	
+    <h1>Iframe Content:</h1>
+    <iframe name="iframe" id="iframe" width="800" height="600"></iframe>
+
+	
+    <script>
+        // Get the value of the 'src' query parameter from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const iframeSrc = urlParams.get("src");
+
+        // Set the iframe's source to the value from the query parameter
+        if (iframeSrc) {
+            const iframe = document.getElementById("iframe");
+            iframe.src = iframeSrc;
+        }
+    </script>
+	
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get all elements with the specified class
+      var links = document.querySelectorAll('.link');
+
+      // Add a click event listener to each link
+      links.forEach(function (link) {
+        link.addEventListener('click', function (event) {
+          // Prevent the default behavior of the link (e.g., navigating to a new page)
+          event.preventDefault();
+
+          // Get the pathname of the clicked link
+          var pathname = link.pathname;
+
+          // Modify the URL by adding the pathname as the newText
+          var newUrl = window.location.origin + pathname;
+
+          // Use pushState to update the URL without navigating
+          history.pushState({}, '', newUrl);
+        });
+      });
+    });
+  </script>
+	
+	
+</body>
+</html>

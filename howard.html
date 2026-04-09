@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Howard Time System</title>
+	<link rel="stylesheet" href="howard-styles.css">	
+</head>
+
+<body>
+	<div id="main">
+		<div id="content">
+			<h2>Howard Time System</h2>
+			<p>The Howard Time System (HTS) reinterprets the traditional base-60 (sexagesimal) system of time measurement into 70-minute "Howards".</p>
+			<h3><i>There are...</i></h3>
+			<ul>
+				<li>1 hour 10 minutes in a Howard</li>
+				<li>6.86 Howards in an 8-hour work shift</li>
+				<li>10.29 Howards on a 12-hour clock face</li>
+				<li>20.57 Howards in a Day</li>
+			</ul>
+			<h3>Howard Conversion Calculator</h3>
+			<p>Convert hours and minutes to Howards, or Howards to hours and minutes using the calculator below.</p>
+			<p><b>Note:</b> HTS does not have a minute equivelent, and uses hundredths-place decimal values instead. </p>
+			<br>
+			<div id="conversion">
+				<div id="convcont">
+					<h3>Hours and minutes to Howards</h3>
+					<form id="hour2howard">
+						<label for="hours">Hours:</label>
+						<input type="number" id="hours" required>
+						<label for="minutes">Minutes:</label>
+						<input type="number" id="minutes" required>
+						<br>
+						<button type="button" onclick="calculateHr2Hd()">Convert</button>
+					</form>
+					<div class="results">
+						<p id="result1"></p>
+					</div>	
+
+					<script>
+						function calculateHr2Hd() {
+							// Get input values
+							const hoursInput = document.getElementById('hours');
+							const minutesInput = document.getElementById('minutes');
+
+							// Parse input values as integers
+							const hours = parseInt(hoursInput.value) || 0;
+							const minutes = parseInt(minutesInput.value) || 0;
+
+							// Perform the calculation
+							const totalMinutes = hours * 60 + minutes;
+							const result = (totalMinutes / 70).toFixed(2);
+
+							// Display the result with "howard" or "howards"
+							const resultElement = document.getElementById('result1');
+							if (result === "1.00") {
+								resultElement.textContent = `1.00 Howard`;
+							} else {
+								resultElement.textContent = `${result} Howards`;
+							}
+						}
+					</script>
+
+					<br>
+					<h3>Howards to hours and minutes</h3>
+
+					 <form id="howard2hour">
+						<label for="howards">Howards:</label>
+						<input type="number" step="0.01" id="howards" required>
+						<br>
+						<button type="button" onclick="calculateHd2Hr()">Convert</button>
+					</form>
+					<div class="results">
+						<p id="result2"></p>
+					</div>
+					<script>
+						function calculateHd2Hr() {
+							// Get input value
+							const howardsInput = document.getElementById('howards');
+							const howards = parseFloat(howardsInput.value) || 0;
+
+							// Calculate hours and minutes
+							const totalMinutes = Math.round(howards * 70);
+							const hours = Math.floor(totalMinutes / 60);
+							const minutes = totalMinutes % 60;
+
+							// Display the result
+							const resultElement = document.getElementById('result2');
+							resultElement.textContent = `${hours} hours and ${minutes} minutes`;
+						}
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

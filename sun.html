@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Everything's New Under the Sun</title>
+<link rel="stylesheet" href="proj-styles.css">	
+</head>
+
+<body>
+			<div id="content1">	
+				<!--SLIDESHOW-->
+	<div class="slideshow-container">
+
+		  <div class="slideshow">
+			<a target="_blank" href="images/projects/sun/sun1.jpg"><img src="images/projects/sun/sunslide1.jpg" alt="Lamp at an angle" style="width:100%"></a>
+		  </div>
+		
+				  <div class="slideshow">
+			<a target="_blank" href="images/projects/sun/sun2.jpg"><img src="images/projects/sun/sunslide2.jpg" alt="Lamp in full" style="width:100%"></a>
+		  </div>
+		
+				  <div class="slideshow">
+			<a target="_blank" href="images/projects/sun/sun3.jpg"><img src="images/projects/sun/sunslide3.jpg" alt="Closeup of lamp baby head" style="width:100%"></a>
+		  </div>
+		
+				  <div class="slideshow">
+			<a target="_blank" href="images/projects/sun/sun4.jpg"><img src="images/projects/sun/sunslide4.jpg" alt="Closeup of illuminated sign" style="width:100%"></a>
+		  </div>
+
+		  <!-- Next and previous buttons -->
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+	<script>	
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		// Next/previous controls
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  let i;
+		  let slides = document.getElementsByClassName("slideshow");
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		  }
+		  slides[slideIndex-1].style.display = "block";
+		} 	
+	</script>
+<!--END OF SLIDESHOW-->
+		<hr>
+		<div class="title">
+			<h3>Everything's New Under the Sun</h3>
+			<p><i>2022</i>&nbsp;&nbsp;| <i>Lamp sculpture</i></p>
+		</div>
+
+		<div class="desc">
+
+			<p align="left"><b>Description:</b><br><br>
+			A small tabletop lamp sculpture that highlights the preposterous phrase "all new material."
+			</p>		
+		</div>
+	</div>
+	
+</body>
+</html>

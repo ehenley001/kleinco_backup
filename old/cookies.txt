@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.mediafire.com	TRUE	/	FALSE	1999999999	__cfduid	d09bcd0e93d09e894e15a7511b6d76bac1554143852
+.mediafire.com	TRUE	/	FALSE	1999999999	ukey	31f57ox8l95ga209zurz9v1h76ih99dw
+.mediafire.com	TRUE	/	FALSE	1999999999	googtrans	/en/en
+.gyazo.com	TRUE	/	FALSE	1999999999	__cfduid	d2ca7a2fe1f2b1ce4a0ccb64666eaf3761554143866
+

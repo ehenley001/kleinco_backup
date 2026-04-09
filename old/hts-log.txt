@@ -1,0 +1,17 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 01 Apr 2019 12:36:06 at http://www.kleinco.org/old +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.kleinco.org/old -O1 "G:\KleinCoorg old site backup\Old KleinCo Site" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:37:54	Warning: 	Link www.mediafire.com/file/72vvffbc8tpbs23/Plum+Caf%C3%A9+Wallpaper.jpg not scanned (follow robots meta tag)
+12:37:54	Warning: 	Link www.mediafire.com/file/fyz3dd5cdj699z3/CoC+Jazz+cover.png not scanned (follow robots meta tag)
+12:37:54	Warning: 	Link www.mediafire.com/file/nd8cv99enkckciz/CoC+Jazz+Back.png not scanned (follow robots meta tag)
+12:41:14	Warning: 	Retry after error -5 (Unable to get server's address: No such host is known. ) at link www.umnet.com/pic/diy/screensaver/0/India--7726.gif (from www.kleinco.org/old/service.htm)
+12:45:53	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link www.umnet.com/pic/diy/screensaver/0/India--7726.gif (from www.kleinco.org/old/service.htm)
+12:45:53	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link www.umnet.com/pic/diy/screensaver/0/India--7726.gif (from www.kleinco.org/old/service.htm)
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 47 seconds : 44 links scanned, 40 files written (15008649 bytes overall) [14592932 bytes received at 24860 bytes/sec], 588701 bytes transferred using HTTP compression in 3 files, ratio 25%, 1.3 requests per connection
+(1 errors, 5 warnings, 0 messages)

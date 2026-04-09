@@ -1,0 +1,299 @@
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="FTP" domain="http://www.kleinco.org" resolutions="1x" timestamp="1580440371456" ftp_hostname="ftp://64.20.39.203" ftp_rootfolder="/public_html">
+  <folder name="phone">
+    <folder name="css">
+      <file name="master_a-master.css" crc="4267482037" ref="phone>ryan:phone>contact:phone>index:phone>talking-treble:phone>people:phone>eli:phone>projects:phone>cut-rate:phone>youtube:phone>tahj:phone>arcé-bao"/>
+      <file name="ryan.css" crc="4195366406" ref="phone>ryan"/>
+      <file name="contact.css" crc="4050107611" ref="phone>contact"/>
+      <file name="index.css" crc="3875509995" ref="phone>index"/>
+      <file name="talking-treble.css" crc="86623913" ref="phone>talking-treble"/>
+      <file name="people.css" crc="115310367" ref="phone>people"/>
+      <file name="eli.css" crc="4258437601" ref="phone>eli"/>
+      <file name="projects.css" crc="115310367" ref="phone>projects"/>
+      <file name="cut-rate.css" crc="3817010719" ref="phone>cut-rate"/>
+      <file name="youtube.css" crc="4151393996" ref="phone>youtube"/>
+      <file name="tahj.css" crc="307421118" ref="phone>tahj"/>
+      <file name="arc_-bao.css" crc="4266378833" ref="phone>arcé-bao"/>
+    </folder>
+    <file name="index.html" crc="4240356850" seo="true" mt="1580439442846" redirect="true"/>
+    <file name="people.html" crc="3849598715" seo="true" mt="1580439442846" redirect="true"/>
+    <file name="eli.html" crc="159382608" seo="true" mt="1580439681945" redirect="true"/>
+    <file name="ryan.html" crc="133298867" seo="true" mt="1580439724102" redirect="true"/>
+    <file name="tahj.html" crc="409324279" seo="true" mt="1580439746156" redirect="true"/>
+    <file name="projects.html" crc="4100402524" seo="true" mt="1580439442846" redirect="true"/>
+    <file name="talking-treble.html" crc="428315346" seo="true" mt="1580439993682" redirect="true"/>
+    <file name="cut-rate.html" crc="3944721599" seo="true" mt="1580440067540" redirect="true"/>
+    <file name="arcé-bao.html" crc="102427923" seo="true" mt="1580440211365" redirect="true"/>
+    <file name="contact.html" crc="4251383123" seo="true" mt="1580440244657" redirect="true"/>
+    <file name="youtube.html" crc="3778552486" seo="true" mt="1580440279451" redirect="true"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="4164191679"/>
+    <file name="master_a-master.css" crc="4048227214" ref="projects:people:youtube:tahj:ryan:eli:contact:talking-treble:cut-rate:arcé-bao"/>
+    <file name="projects.css" crc="4142505776" ref="projects"/>
+    <file name="people.css" crc="4142505776" ref="people"/>
+    <file name="youtube.css" crc="51466896" ref="youtube"/>
+    <file name="tahj.css" crc="68223789" ref="tahj"/>
+    <file name="ryan.css" crc="123880574" ref="ryan"/>
+    <file name="eli.css" crc="182228348" ref="eli"/>
+    <file name="contact.css" crc="3839270570" ref="contact"/>
+    <file name="index.css" crc="3783514225" ref="index"/>
+    <file name="talking-treble.css" crc="263015186" ref="talking-treble"/>
+    <file name="cut-rate.css" crc="176370066" ref="cut-rate"/>
+    <file name="arc_-bao.css" crc="4020212003" ref="arcé-bao"/>
+  </folder>
+  <folder name="assets">
+    <file name="ci-logo.tif" crc="3965226463" seo="true" mt="1554079252000"/>
+    <file name="arce-bao-autumn-2019-compress.pdf" crc="4288747083" seo="true" mt="1577418083000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:people:projects:eli:ryan:tahj:talking-treble:cut-rate:contact:youtube:arcé-bao:phone>index:phone>people:phone>eli:phone>ryan:phone>tahj:phone>projects:phone>talking-treble:phone>cut-rate:phone>arcé-bao:phone>contact:phone>youtube"/>
+    <file name="museutils.js" crc="340535759" ref="index:people:projects:eli:ryan:tahj:talking-treble:cut-rate:contact:youtube:arcé-bao:phone>index:phone>people:phone>eli:phone>ryan:phone>tahj:phone>projects:phone>talking-treble:phone>cut-rate:phone>arcé-bao:phone>contact:phone>youtube"/>
+    <file name="whatinput.js" crc="86476730" ref="index:people:projects:eli:ryan:tahj:talking-treble:cut-rate:contact:youtube:arcé-bao:phone>index:phone>people:phone>eli:phone>ryan:phone>tahj:phone>projects:phone>talking-treble:phone>cut-rate:phone>arcé-bao:phone>contact:phone>youtube"/>
+    <file name="museconfig.js" crc="310584261" ref="index:people:projects:eli:ryan:tahj:talking-treble:cut-rate:contact:youtube:arcé-bao:phone>index:phone>people:phone>eli:phone>ryan:phone>tahj:phone>projects:phone>talking-treble:phone>cut-rate:phone>arcé-bao:phone>contact:phone>youtube"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index:people:projects:eli:ryan:tahj:talking-treble:cut-rate:contact:youtube:arcé-bao:phone>index:phone>people:phone>eli:phone>ryan:phone>tahj:phone>projects:phone>talking-treble:phone>cut-rate:phone>arcé-bao:phone>contact:phone>youtube"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:people:projects:eli:ryan:tahj:talking-treble:cut-rate:contact:youtube:arcé-bao:phone>index:phone>people:phone>eli:phone>ryan:phone>tahj:phone>projects:phone>talking-treble:phone>cut-rate:phone>arcé-bao:phone>contact:phone>youtube"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:people:projects:eli:ryan:tahj:talking-treble:cut-rate:contact:youtube:arcé-bao:phone>index:phone>people:phone>eli:phone>ryan:phone>tahj:phone>projects:phone>talking-treble:phone>cut-rate:phone>arcé-bao:phone>contact:phone>youtube"/>
+    <file name="require.js" crc="7928878" ref="index:people:projects:eli:ryan:tahj:talking-treble:cut-rate:contact:youtube:arcé-bao:phone>index:phone>people:phone>eli:phone>ryan:phone>tahj:phone>projects:phone>talking-treble:phone>cut-rate:phone>arcé-bao:phone>contact:phone>youtube"/>
+    <file name="webpro.js" crc="4059564322" ref="contact:talking-treble:eli:phone>eli:phone>contact"/>
+    <file name="form_check.php" crc="4020933626" ref="phone>contact"/>
+    <file name="form_throttle.php" crc="4259590256" ref="phone>contact"/>
+    <file name="form_process.php" crc="37464564" ref="phone>contact"/>
+    <file name="form-u969.php" crc="4046181851" ref="contact"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="talking-treble:eli:phone>eli"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="talking-treble:eli:phone>eli"/>
+    <file name="touchswipe.js" crc="4075097462" ref="talking-treble:eli:phone>eli"/>
+    <file name="form-u5988.php" crc="319693828" ref="phone>contact"/>
+  </folder>
+  <folder name="images">
+    <file name="screenshot_20170625-213922-crop-u1308.jpg" crc="3808078287" seo="true" ref="eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="screenshot_20171105-184216-crop-u1298.jpg" crc="304296063" seo="true" ref="ryan">
+      <caption webpage="ryan" alt=""/>
+    </file>
+    <file name="screenshot_20171021-133549-crop-u1288.jpg" crc="3839741599" seo="true" ref="tahj">
+      <caption webpage="tahj" alt=""/>
+    </file>
+    <file name="snapchat-741144578-crop-u1278.jpg" crc="234648021" seo="true" ref="talking-treble">
+      <caption webpage="talking-treble" alt=""/>
+    </file>
+    <file name="cutrate trans.png" crc="4230245807" seo="true" ref="cut-rate">
+      <caption webpage="cut-rate" alt=""/>
+    </file>
+    <file name="favicon.ico" crc="522700870" ref="phone>index"/>
+    <file name="20190621_232827-crop-u2739.jpg" crc="4007300334" seo="true" ref="talking-treble">
+      <caption webpage="talking-treble" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="talking-treble:eli:phone>eli"/>
+    <file name="20190621_234034-crop-u2890.jpg" crc="4258549252" seo="true" ref="talking-treble">
+      <caption webpage="talking-treble" alt=""/>
+    </file>
+    <file name="image1-crop-u2910.jpg" crc="3930782870" seo="true" ref="talking-treble">
+      <caption webpage="talking-treble" alt=""/>
+    </file>
+    <file name="image2-crop-u2930.jpg" crc="371770246" seo="true" ref="talking-treble">
+      <caption webpage="talking-treble" alt=""/>
+    </file>
+    <file name="image3-crop-u2950.jpg" crc="3813515124" seo="true" ref="talking-treble">
+      <caption webpage="talking-treble" alt=""/>
+    </file>
+    <file name="image4-crop-u2970.jpg" crc="4132805805" seo="true" ref="talking-treble">
+      <caption webpage="talking-treble" alt=""/>
+    </file>
+    <file name="image22-crop-u2990.jpg" crc="41111243" seo="true" ref="talking-treble">
+      <caption webpage="talking-treble" alt=""/>
+    </file>
+    <file name="image44-crop-u3010.jpg" crc="127329576" seo="true" ref="talking-treble">
+      <caption webpage="talking-treble" alt=""/>
+    </file>
+    <file name="screenshot_20190621-214835_snapchat-crop-u3030.jpg" crc="402546192" seo="true" ref="talking-treble">
+      <caption webpage="talking-treble" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="talking-treble:eli:phone>eli"/>
+    <file name="agriculture-crop-u4668.jpg" crc="4250393937" seo="true" ref="eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="muscle relaxers-crop-u4815.jpg" crc="20889037" seo="true" ref="eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="presently-crop-u4855.jpg" crc="455316460" seo="true" ref="eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="home-crop-u4795.jpg" crc="4146248581" seo="true" ref="eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="mush-crop-u4835.jpg" crc="4018163924" seo="true" ref="eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="struck a car-crop-u4875.jpg" crc="3888286054" seo="true" ref="eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="agriculture-crop-u4659.jpg" crc="376249696" seo="true" ref="eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="home-crop-u4789.jpg" crc="3902282576" seo="true" ref="eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="muscle relaxers-crop-u4809.jpg" crc="4057794748" seo="true" ref="eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="mush-crop-u4829.jpg" crc="59977956" seo="true" ref="eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="presently-crop-u4849.jpg" crc="364686364" seo="true" ref="eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="struck a car-crop-u4869.jpg" crc="3959610919" seo="true" ref="eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="title crop.jpg" crc="3942842933" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="agriculture-crop-u5786.jpg" crc="3785267473" seo="true" ref="phone>eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="home-crop-u5788.jpg" crc="4094407" seo="true" ref="phone>eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="muscle relaxers-crop-u5792.jpg" crc="4071079523" seo="true" ref="phone>eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="mush-crop-u5790.jpg" crc="482640280" seo="true" ref="phone>eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="presently-crop-u5794.jpg" crc="4046498646" seo="true" ref="phone>eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="struck a car-crop-u5784.jpg" crc="80223970" seo="true" ref="phone>eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="agriculture-crop-u5774.jpg" crc="4250393937" seo="true" ref="phone>eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="presently-crop-u5768.jpg" crc="455316460" seo="true" ref="phone>eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="home-crop-u5770.jpg" crc="4146248581" seo="true" ref="phone>eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="struck a car-crop-u5778.jpg" crc="3888286054" seo="true" ref="phone>eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="muscle relaxers-crop-u5776.jpg" crc="20889037" seo="true" ref="phone>eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="mush-crop-u5772.jpg" crc="4018163924" seo="true" ref="phone>eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="screenshot_20170625-213922-crop-u5755.jpg" crc="3808078287" seo="true" ref="phone>eli">
+      <caption webpage="eli" alt=""/>
+    </file>
+    <file name="screenshot_20171105-184216-crop-u5903.jpg" crc="304296063" seo="true" ref="phone>ryan">
+      <caption webpage="ryan" alt=""/>
+    </file>
+    <file name="screenshot_20171021-133549-crop-u5916.jpg" crc="3839741599" seo="true" ref="phone>tahj">
+      <caption webpage="tahj" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="4182120835" seo="true" mt="1580439056130" redirect="true"/>
+  <file name="people.html" crc="291611683" seo="true" mt="1580439056194" redirect="true"/>
+  <file name="projects.html" crc="18192352" seo="true" mt="1580439056375" redirect="true"/>
+  <file name="eli.html" crc="199169591" seo="true" mt="1580439056247" redirect="true"/>
+  <file name="ryan.html" crc="4282626996" seo="true" mt="1580439056290" redirect="true"/>
+  <file name="tahj.html" crc="35275109" seo="true" mt="1580439056333" redirect="true"/>
+  <file name="talking-treble.html" crc="472229828" seo="true" mt="1580439056417" redirect="true"/>
+  <file name="cut-rate.html" crc="398114282" seo="true" mt="1580439056457" redirect="true"/>
+  <file name="contact.html" crc="4184178216" seo="true" mt="1580439056540" redirect="true"/>
+  <file name="youtube.html" crc="4173629297" seo="true" mt="1580439056582" redirect="true"/>
+  <file name="arcé-bao.html" crc="362173299" seo="true" mt="1580439056500" redirect="true"/>
+  <site>
+    <asset filename="ci-logo.tif" muse_href="upload:U1055"/>
+    <asset filename="arce-bao-autumn-2019-compress.pdf" muse_href="upload:U4896"/>
+    <paragraphStyle className="normal_text" uid="U49"/>
+    <nestedListStyle className="nls-None" uid="U52"/>
+  </site>
+  <renditions>
+    <rendition device="desktop">
+      <page name="Home" filename="index.html" muse_href="page:U93" master="U62">
+        <breakpoint uid="U83" maxwidth="960" minwidth="0" squishy="true"/>
+      </page>
+      <masterPage name="None" master="null" uid="U62">
+        <breakpoint uid="U63" maxwidth="960" minwidth="0" squishy="true"/>
+      </masterPage>
+      <page name="People" filename="people.html" muse_href="page:U197" master="U72">
+        <breakpoint uid="U187" maxwidth="960" minwidth="0" squishy="true"/>
+      </page>
+      <masterPage name="A-Master" master="U62" uid="U72">
+        <breakpoint uid="U73" maxwidth="960" minwidth="0" squishy="true"/>
+      </masterPage>
+      <page name="Projects" filename="projects.html" muse_href="page:U209" master="U72">
+        <breakpoint uid="U199" maxwidth="960" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Eli" filename="eli.html" muse_href="page:U221" master="U72">
+        <breakpoint uid="U211" maxwidth="960" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Ryan" filename="ryan.html" muse_href="page:U233" master="U72">
+        <breakpoint uid="U223" maxwidth="960" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Tahj" filename="tahj.html" muse_href="page:U245" master="U72">
+        <breakpoint uid="U235" maxwidth="960" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Talking Treble" filename="talking-treble.html" muse_href="page:U551" master="U72">
+        <breakpoint uid="U541" maxwidth="960" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Cut Rate" filename="cut-rate.html" muse_href="page:U584" master="U72">
+        <breakpoint uid="U574" maxwidth="960" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Contact" filename="contact.html" muse_href="page:U869" master="U72">
+        <breakpoint uid="U859" maxwidth="960" minwidth="0" squishy="true"/>
+      </page>
+      <page name="YouTube" filename="youtube.html" muse_href="page:U1729" master="U72">
+        <breakpoint uid="U1719" maxwidth="960" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Arcé Bao" filename="arcé-bao.html" muse_href="page:U5252" master="U72">
+        <breakpoint uid="U5242" maxwidth="960" minwidth="0" squishy="true"/>
+      </page>
+    </rendition>
+    <rendition device="phone">
+      <page name="Home" filename="index.html" muse_href="page:U5350" master="U5329">
+        <breakpoint uid="U5340" maxwidth="380" minwidth="0" squishy="true"/>
+      </page>
+      <masterPage name="A-Master" master="U5319" uid="U5329">
+        <breakpoint uid="U5330" maxwidth="380" minwidth="0" squishy="true"/>
+      </masterPage>
+      <masterPage name="None" master="null" uid="U5319">
+        <breakpoint uid="U5320" maxwidth="380" minwidth="0" squishy="true"/>
+      </masterPage>
+      <page name="People" filename="people.html" muse_href="page:U5362" master="U5329">
+        <breakpoint uid="U5352" maxwidth="380" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Eli" filename="eli.html" muse_href="page:U5374" master="U5329">
+        <breakpoint uid="U5364" maxwidth="380" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Ryan" filename="ryan.html" muse_href="page:U5386" master="U5329">
+        <breakpoint uid="U5376" maxwidth="380" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Tahj" filename="tahj.html" muse_href="page:U5398" master="U5329">
+        <breakpoint uid="U5388" maxwidth="380" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Projects" filename="projects.html" muse_href="page:U5410" master="U5329">
+        <breakpoint uid="U5400" maxwidth="380" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Talking Treble" filename="talking-treble.html" muse_href="page:U5422" master="U5329">
+        <breakpoint uid="U5412" maxwidth="380" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Cut Rate" filename="cut-rate.html" muse_href="page:U5434" master="U5329">
+        <breakpoint uid="U5424" maxwidth="380" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Arcé Bao" filename="arcé-bao.html" muse_href="page:U5446" master="U5329">
+        <breakpoint uid="U5436" maxwidth="380" minwidth="0" squishy="true"/>
+      </page>
+      <page name="Contact" filename="contact.html" muse_href="page:U5458" master="U5329">
+        <breakpoint uid="U5448" maxwidth="380" minwidth="0" squishy="true"/>
+      </page>
+      <page name="YouTube" filename="youtube.html" muse_href="page:U5470" master="U5329">
+        <breakpoint uid="U5460" maxwidth="380" minwidth="0" squishy="true"/>
+      </page>
+    </rendition>
+  </renditions>
+</manifest>

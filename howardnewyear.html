@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year Countdown</title>
+	<link rel="stylesheet" href="howard-styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        #countdown {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="countdown"></div>
+
+<script>
+    function updateCountdown() {
+        const now = new Date();
+        const newYear = new Date(now.getFullYear() + 1, 0, 1);
+        const timeRemaining = newYear - now;
+
+        if (timeRemaining <= 0) {
+            document.getElementById('countdown').innerHTML = "IT IS 2024. PLEASE LEAVE";
+            setTimeout(() => {
+                document.getElementById('countdown').innerHTML = ""; // Remove the message
+                updateCountdown(); // Restart the countdown
+            }, 300000); // 5 minutes in milliseconds
+        } else {
+            const totalHours = timeRemaining / (70 * 60 * 1000);
+            const formattedHours = totalHours.toFixed(2);
+            document.getElementById('countdown').innerHTML = `${formattedHours} Howards left until the New Year`;
+            setTimeout(updateCountdown, 1000);
+        }
+    }
+
+    // Initial call to start the countdown
+    updateCountdown();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>League of Extraordinary Homes</title>
+<link rel="stylesheet" href="proj-styles.css">	
+</head>
+
+<body>
+	<div id="content1">	
+		
+<!--SLIDESHOW-->
+	<div class="slideshow-container">
+
+		  <div class="slideshow">
+			<a target="_blank" href="images/projects/league/league-title-img-lg.jpg"><img src="images/projects/league/league-title-img.jpg" alt="Setup at Taylor Town with enlarged sign" style="width:100%"></a>
+		  </div>
+
+		  <div class="slideshow">
+			<a target="_blank" href="images/projects/league/league-close-lg.jpg"><img src="images/projects/league/league-close.jpg" alt="Closeup of phone and photo frame on drywall" style="width:100%"></a>
+		  </div>
+
+		  <div class="slideshow">
+			<a target="_blank" href="images/projects/league/league-sign-lg.jpg"><img src="images/projects/league/league-sign.jpg" alt="closeup of sign" style="width:100%"></a>
+		  </div>
+		
+		  <div class="slideshow">
+			<a target="_blank" href="images/projects/league/league-outdoor-lg.jpg"><img src="images/projects/league/league-outdoor.jpg" alt="drywall outside with nothing mounted on it" style="width:100%"></a>
+		  </div>
+		
+		  <div class="slideshow">
+			<a target="_blank" href="images/projects/league/league-ttown-lg.jpg"><img src="images/projects/league/league-ttown.jpg" alt="Setup at Taylor Town" style="width:100%"></a>
+		  </div>
+
+		  <!-- Next and previous buttons -->
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+	<script>	
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		// Next/previous controls
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  let i;
+		  let slides = document.getElementsByClassName("slideshow");
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		  }
+		  slides[slideIndex-1].style.display = "block";
+		} 	
+	</script>
+<!--END OF SLIDESHOW-->
+		
+		<hr>
+		<div class="title">
+			<h3>League of Extraordinary Homes</h3>
+			<p><i>2022</i>&nbsp;&nbsp;| <i>Interactive installation</i></p>
+		</div>
+
+		<div class="desc">
+
+			<p align="left"><b>Description:</b><br><br><i>Why Do We Live Here?</i> or <i>My Life Through a Chip Bag</i><br><br>This installation piece was on-site at <a href="ttown.html">Taylor Town</a>. A digital picture frame and a landline phone were mounted side-by-side on a piece of 1/2" drywall. The drywall and accompanying stand were assembled according to conventional wood frame home construction practices.<br><br>The picture frame cycled through approximately 300 images of then-current real-estate photos from the Albuquerque and Rio Rancho areas. The images were chosen for their emotional impact.<br><br>When the landline phone handset was lifted, a random recording (from a pool of about 30) played automatically. These recordings were recorded by myself or submitted by friends, and broadly responded to the prompt "something an angry, stifled suburban parent would say." Some of these recordings were only screams. Others emulated a voicemail.</p>
+			<p>
+			<b>Featuring the voices of:</b><br><br>Eli, Tahj, Gus, Joe, and Ray
+			</p>
+
+			<hr>
+			<p>
+			<b>Notes and extras:</b><br><br>The phone handset playback device was the most significant part of this project. This part is controlled by a small single-board computer, which executes a phython script. It watches the current draw (in milliamps) on the phone's POTS line ... when it increases, it knows the handset's been lifeted, triggering the audio playback. Audio is amplified using an external audio receiver/amp. 
+			</p>	
+			
+			<a target="_blank" href="images/projects/league/league-ins-lg.jpg"><img class="images" src="images/projects/league/league-ins.jpg" alt="Inside of phone control box"></a>
+			
+			
+		</div>
+	</div>
+	
+</body>
+</html>

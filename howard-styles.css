@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	color: #000D4A;
+	background-color: #F3F3F3;
+	font-family: Helvetica, Arial, "sans-serif";
+}
+
+#main {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content {
+	margin-top: 50px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #002B94;
+	background-color: #FFFFFF;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	border-radius: 15px;
+}
+
+#content h2, h3 {
+	text-align: center;
+}
+
+#conversion {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: none none none solid;
+	border-width: 2px;
+	border-color: #858585;
+	background-color: #F3F3F3;
+}
+
+#convcont{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	width: 290px;
+	
+}
+
+
+input {
+	width: 40px;
+	padding: 8px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: none;
+	border-bottom: 1px solid #002B94;
+}
+
+button {
+	margin-bottom: 12px;
+	border: none;
+	background-color: white;
+	color: #000D4A;
+	padding: 10px 15px;
+}
+
+#howards {
+	width: 60px;
+}
+
+.results {
+	width: 290px;
+	height: 50px;
+	border-color: #858585;
+	border-width: 1px;
+	border-style: solid;
+}
+
+#result1, #result2 {
+	text-align: center;
+	font-weight: bold;
+}
+

@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>kleinco - Projects</title>
+	    <link rel="stylesheet" href="styles.css">	
+		<script>
+		function loadIframeWithTarget() {
+			const urlParams = new URLSearchParams(window.location.search);
+			const iframeSrc = urlParams.get("iframeSrc");
+			const iframeTarget = urlParams.get("iframeTarget");
+
+			if (iframeSrc && iframeTarget) {
+				const iframe = document.getElementById(iframeTarget);
+				if (iframe) {
+					iframe.src = iframeSrc;
+				}
+			}
+		}
+	</script>
+</head>
+
+<body>
+	
+	<div id="main">
+		<div id="menuheader">
+			<img src="images/headerv4.jpg" alt="header with menu">
+			<div id="topnav">
+				<a href="index.html">HOME</a>
+				<a href="projects.html"><b>PROJECTS</b></a>
+				<a href="contact.html">CONTACT</a>
+				<a href="about.html">ABOUT</a>
+			</div>
+		</div>		
+		<div id="thebody">
+			<div id="thecontent">
+				<div id="selectaproj">
+					<div id="projname" class="noscroll">
+						<h3><i>Select-a-Project</i></h3>
+
+						<select id="filterSelect" autocomplete="off">
+							<option value="all">All</option>
+							<option value="videos">Videos</option>
+							<option value="music">Albums / Music</option>
+							<option value="contraptions">Sculptures / Contraptions</option>
+							<option value="events">Performances / Events</option>
+						</select>
+
+	<!--BEGIN Add new projects here -->
+						<hr>
+						<h3>2023</h3>
+						<ul>
+							<li class="contraptions"><a class="link" href="stoolmount.html" target="iframe">Stool Wall Mount</a></li>
+							<li class="contraptions"><a class="link" href="fountain.html" target="iframe">Metal Fountain</a></li>
+							<li class="contraptions"><a class="link" href="fluesday.html" target="iframe">Things According to Last Fluesday</a></li>
+							<li class="videos"><a class="link" href="taydies.html" target="iframe">Taylor Dies</a></li>
+							<li class="music"><a class="link" href="sotsb.html" target="iframe">Sounds of the South Broadway (2019)</a></li>
+							<li class="videos music"><a class="link" href="ttmove.html" target="iframe">It's time to move!</a></li>
+						</ul>
+						<h3>2022</h3>
+						<ul>
+							<li class="events"><a class="link" href="ttown.html" target="iframe">Taylor Town</a></li>
+							<li class="contraptions"><a class="link" href="exhomes.html" target="iframe">League of Extraordinary Homes</a></li>
+							<li class="contraptions videos"><a class="link" href="casino.html" target="iframe">The World's First Combination Keyboard and Casino Games Device</a></li>
+							<li class="contraptions"><a class="link" href="sun.html" target="iframe">Everything's New Under the Sun</a></li>
+							<li class="music"><a class="link" href="eipar.html" target="iframe">E-I Parents</a></li>
+						</ul>	
+						
+	<!--END Add new projects here -->
+
+					  <script>
+							const filterSelect = document.getElementById('filterSelect');
+							const listItems = document.querySelectorAll('.videos, .music, .contraptions, .drawings, .events, .objects');
+
+							listItems.forEach(item => {
+							item.style.display = 'list-item';
+							 });
+
+							 filterSelect.addEventListener('change', function() {
+							 const selectedValue = filterSelect.value;
+
+							 listItems.forEach(item => {
+								if (selectedValue === 'all' || item.classList.contains(selectedValue)) {
+								  item.style.display = 'list-item';
+								} else {
+								  item.style.display = 'none';
+								}
+							  });
+							});
+						  
+						  document.addEventListener('DOMContentLoaded', function () {
+							  var myLink = document.getElementById('link');
+
+							  myLink.addEventListener('click', function (event) {
+								// Prevent the default behavior of the link
+								event.preventDefault();
+
+								// Get the href value of the clicked link
+								var linkHref = myLink.getAttribute('href');
+
+								// Get the current URL
+								var currentUrl = window.location.href;
+
+								// Append the link's href to the current URL
+								var newUrl = currentUrl + linkHref;
+
+								// Log the new URL (you can modify this to perform a redirect or any other action)
+								console.log('New URL:', newUrl);
+							  });
+							});
+
+					  </script>
+
+					</div>
+
+					<div id="projdesc">
+						<iframe name="iframe" id="iframe" width="400" height="100%" frameBorder="0"></iframe>
+						
+						<script>
+							// Get the value of the 'src' query parameter from the URL
+							const urlParams = new URLSearchParams(window.location.search);
+							const iframeSrc = urlParams.get("src");
+
+							// Set the iframe's source to the value from the query parameter
+							if (iframeSrc) {
+								const iframe = document.getElementById("iframe");
+								iframe.src = iframeSrc;
+							}
+							
+							// Generate sharable URL
+							document.addEventListener('DOMContentLoaded', function () {
+							// Get the links
+							var links = document.getElementsByClassName('link');
+
+							// Check if the suffix is already present in the URL
+							var suffix = window.location.search;
+
+							// Attach click event listeners to the links
+							for (var i = 0; i < links.length; i++) {
+								links[i].addEventListener('click', function (event) {
+									// Prevent the default link behavior
+									event.preventDefault();
+
+									// Get the href attribute of the clicked link
+									var href = this.getAttribute('href');
+
+									// Remove the existing suffix from the URL
+									if (window.location.search) {
+										history.pushState(null, null, window.location.pathname);
+									}
+
+									// Add the new suffix to the URL
+									history.pushState(null, null, window.location.pathname + '?src=' + href);
+
+									// Load the content into the iframe
+									document.getElementById('iframe').src = href;
+								});
+							}
+						});
+						</script>
+					</div>
+			</div>
+			</div>
+			<img id="projbord" src="images/projpage-graphic3.jpg" alt="select-a-project border">
+		</div>	
+		
+		<br><br><hr><p id="footertext">Eli Henley&nbsp;&nbsp;|&nbsp;&nbsp;kleinco.org&nbsp;&nbsp;|&nbsp;&nbsp;updated December 2023</p>
+	</div>	
+	
+</body>
+</html>
